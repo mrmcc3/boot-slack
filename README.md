@@ -10,17 +10,17 @@ in build.boot
 (require '[mrmcc3.boot-slack :refer [slack]])
 ```
 
-then set webhook the url
+then set the webhook url
 ```clj
 (task-options! slack {:url "https://hooks.slack.com/services/.........."})
 ```
 
-test from the command line
+try it from the command line
 ```bash
 $ boot slack -m "Hello World"
 ```
 
-You can set the bot username, icon emoji and the channel/user to send to using the following options
+You can set the bot username, icon emoji and the channel/user to send to
 ```clj
 [u url URL str "slack webhook url"
  b bot BOT str "the bot username"
