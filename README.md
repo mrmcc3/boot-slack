@@ -2,7 +2,7 @@
 
 Boot task for sending a message to slack (via incoming webhook).
 
-[![Clojars Project](http://clojars.org/mrmcc3/boot-slack/latest-version.svg)]
+![Clojars Project](http://clojars.org/mrmcc3/boot-slack/latest-version.svg)
 
 ### Usage
 
