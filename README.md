@@ -6,7 +6,7 @@ Boot task for sending a message to slack (via incoming webhook).
 
 in build.boot
 ```clj
-(set-env! :dependencies '[[mrmcc3/boot-slack "0.1.0"]])
+(set-env! :dependencies '[[mrmcc3/boot-slack "0.1.0-SNAPSHOT"]])
 (require '[mrmcc3.boot-slack :refer [slack]])
 ```
 

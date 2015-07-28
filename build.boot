@@ -11,7 +11,7 @@
          '[environ.core :refer [env]]
          '[mrmcc3.boot-slack :refer [slack]])
 
-(def +version+ "0.1.0")
+(def +version+ "0.1.0-SNAPSHOT")
 
 (bootlaces! +version+)
 
