@@ -2,8 +2,8 @@
  :source-paths #{"src"}
  :dependencies '[[org.clojure/clojure "1.7.0" :scope "provided"]
                  [boot/core "2.1.2" :scope "provided"]
-                 [clj-http "2.0.0" :scope "test"]
-                 [cheshire "5.5.0" :scope "test"]
+                 [clj-http "2.0.0"]
+                 [cheshire "5.5.0"]
                  [environ "1.0.0" :scope "test"]
                  [adzerk/bootlaces "0.1.10" :scope "test"]])
 
