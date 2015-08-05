@@ -8,7 +8,7 @@
   [u url URL str "slack webhook url"
    b bot BOT str "the bot username"
    m msg MSG str "message to send"
-   i icon ICON str  "icon emoji (:shipit:)"
+   i icon ICON str "icon emoji (:shipit:)"
    c ch CHAN str "channel (#channel, @username)"]
   (with-pre-wrap fs
     (let [payload {:text       (or msg "no text")
